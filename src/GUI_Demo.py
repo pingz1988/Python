@@ -278,7 +278,7 @@ menuBar.add_cascade(label="消息框", menu=msgMenu)
  
  
 # Change the main windows icon
-win.iconbitmap(r'C:\Users\feng\Desktop\研.ico')
+#win.iconbitmap(r'C:\Users\feng\Desktop\研.ico')
  
 # Place cursor into name Entry
 nameEntered.focus()      
