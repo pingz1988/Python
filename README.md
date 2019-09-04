@@ -7,3 +7,5 @@
 #!/usr/bin/python
 #-*- coding: UTF-8 -*-
 ```
+# 不用IDE调试
+python -m pdb xxx.py
