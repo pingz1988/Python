@@ -8,4 +8,6 @@
 #-*- coding: UTF-8 -*-
 ```
 * 不用IDE调试
-python -m pdb xxx.py
+python -m pdb xxx.py  
+设置条件断点  
+b 10,var==2
