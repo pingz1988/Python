@@ -39,11 +39,11 @@ def scp_file(local_path, ssh_user, ssh_ip, ssh_path, ssh_pwd):
         time.sleep(2)
 
 if '__name__' == '__main__':
-    local_path = r'/home/zhangping/scp_test.txt'
+    local_path = r'/home/xxx/scp_test.txt'
     ssh_user = r'root'
     ssh_ip = r'192.168.1.245'
-    ssh_path = r'/home/pingz/'
-    ssh_pwd = r'mvtech@123!'
+    ssh_path = r'/home/xxx/'
+    ssh_pwd = r'123456'
     scp_file(local_path, ssh_user, ssh_ip, ssh_path, ssh_pwd)
     
  ```
