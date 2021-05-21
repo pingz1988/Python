@@ -51,7 +51,8 @@ def send_file(host,port,username,password,file_path,remote_path):
         print("%s: %s [ Ok ]" % (host,file_path))
     except Exception as e:
         print("%s: %s %s [ Error ]" % (host,file_path,e))
-    ssh.close()
+    finally:
+        ssh.close()
 
 
 def send_file_to_all(host_list,file_path,remote_path):
