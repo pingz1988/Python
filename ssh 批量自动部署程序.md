@@ -111,7 +111,8 @@ def exec_cmd(host,port,username,password,command):
             print("result: [ Ok ]\n%s" % result)
     except Exception as e:
         print("result: [ Error ]\n%s" % e)
-    ssh.close()
+    finally:
+        ssh.close()
 
 
 def exec_on_all(host_list,command):
